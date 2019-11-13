@@ -1,6 +1,6 @@
 [package]
 name = "anystring"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Richard Anaya"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
@@ -8,5 +8,5 @@ description = "a macro for turning tokens into strings"
 repository = "https://github.com/richardanaya/anystring/"
 
 [dependencies]
-anystring_macro = "0.0.0"
+anystring_macro = "0.0"
 proc-macro-hack = "0.5"
