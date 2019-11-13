@@ -1,0 +1,14 @@
+[package]
+name = "anystring_macro"
+version = "0.0.0"
+authors = ["Richard Anaya"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "a macro for turning tokens into strings"
+repository = "https://github.com/richardanaya/anystring/"
+
+[dependencies]
+proc-macro-hack = "0.5"
+
+[lib]
+proc-macro = true
